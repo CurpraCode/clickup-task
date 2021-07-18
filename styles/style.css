@@ -377,11 +377,119 @@ main, footer {
   margin-bottom: 2rem;
 }
 
-.card-div .first-flex .inner-flex div {
+.card-div .first-flex .img-set {
+  width: 50%;
+}
+
+.card-div .first-flex .inner-flex {
+  width: 100%;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+}
+
+.card-div .first-flex .inner-flex h3 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.card-div .first-flex .inner-flex p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.card-div .first-flex .inner-flex a {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  color: #212353;
+}
+
+.card-div .first-flex .inner-flex:nth-child(1) {
+  background-image: url("../assets/bluebgsvg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.card-div .first-flex .inner-flex:nth-child(2) {
+  background-image: url("../assets/purple.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.card-div .second-flex {
+  margin-bottom: 2rem;
+}
+
+.card-div .second-flex .inner-flex {
+  width: 100%;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+}
+
+.card-div .second-flex .inner-flex h3 {
+  margin-bottom: 1rem;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.card-div .second-flex .inner-flex p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.card-div .second-flex .inner-flex a {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  color: #212353;
+}
+
+.card-div .second-flex .inner-flex .img-set {
+  width: 50%;
+}
+
+.card-div .second-flex .inner-flex:nth-child(1) {
+  background-image: url("../assets/pink.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
   width: 100%;
 }
 
-.card-div h1 {
+.card-div .second-flex .inner-flex:nth-child(2) {
+  background-image: url("../assets/lightblue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  width: 100%;
+}
+
+.card-div h3 {
+  margin-bottom: 1rem;
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
