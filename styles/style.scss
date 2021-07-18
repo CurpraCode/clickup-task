@@ -1,0 +1,197 @@
+@import "./_footer"
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    
+}
+@mixin flexBox{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+@mixin bodySet {
+    max-width: 1024px;
+    margin:0 auto;
+}
+@mixin buttonWhite{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border:none;
+    padding:1.2rem;
+    font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+}
+.heading{
+    @include flexBox();
+    @include bodySet();
+    padding-top: 2rem;
+    .link-head{
+        @include flexBox();  
+
+    }
+    ul{
+        @include flexBox(); 
+        margin-left: 7rem;
+        li{
+            @include flexBox();
+            list-style-type: none;
+            padding: 0.5rem;
+        }
+        a{
+            text-decoration: none;
+            opacity:0.7;
+            color:#4B5D68;
+            font-family: Avenir;
+            font-size: 16px;
+            font-weight: 500;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    button{
+       @include buttonWhite();
+       @include flexBox();
+       letter-spacing: 0.005em;
+       color: #212353;
+       img{
+           margin-left: 0.7rem;
+       }
+    }
+}
+main, footer{
+    @include bodySet();
+}
+.section-one{
+    margin-top:4rem;
+    h1{
+        font-family:Helvetica, Sans-Serif;
+        font-style: normal;
+        font-weight: bold;  
+        font-size: 80px;
+    }
+    p{
+        font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #4B5D68;
+    }
+    button{
+        font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+        background: #9C69E2;
+border-radius: 50px;
+border:none;
+padding:1rem 2rem;
+text-align: center;
+color: #FFFFFF;
+margin-top: 4rem;
+    }
+    img{
+        width:70%;
+    }
+   
+}
+.section-two{
+   margin-top: 5rem;
+    h1{
+        font-family: Helvetica;
+        font-style: normal;
+font-weight: bold;
+font-size: 40px;
+color: #212353;
+margin-bottom: 2.4rem;
+    }
+    img{
+        width:477px;
+        margin-right: 1.3rem;
+    }
+    p{
+        font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+padding-right: 2.1rem;
+    }
+}
+.section-home{
+    @include flexBox();
+    align-items: flex-start; 
+    div{
+        width:100%;
+        margin-top:4rem;
+        font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+    }
+}
+.card-div{
+    margin-top: 6rem;
+    .first-flex{
+        margin-bottom: 2rem;
+        .inner-flex{
+            div{
+                width:100%;
+            }
+        }
+    }
+    h1{
+        font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+        text-align: center;
+        color: #212353;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+        text-align: center;
+        color: #4B5D68;
+        margin-bottom: 3rem;
+    }
+    a{
+        font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+        color: #212353;
+        text-decoration: none;
+        @include flexBox();
+        justify-content: flex-start;
+        letter-spacing: 0.005em;
+        
+        img{
+            margin-left: 0.7rem;
+        }
+    }
+}
+.section-card{
+    @include flexBox(); 
+    background-color:rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+.first-flex, .second-flex{
+    @include flexBox(); 
+    .inner-flex{
+        @include flexBox()
+    }
+}
