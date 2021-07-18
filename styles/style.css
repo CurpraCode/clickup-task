@@ -373,8 +373,44 @@ main, footer {
   margin-top: 6rem;
 }
 
+.card-div h1 {
+  text-align: center;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+  margin-bottom: 3rem;
+}
+
+.card-div .p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+  padding-bottom: 3rem;
+}
+
 .card-div .first-flex {
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+.card-div .first-flex .pos-img {
+  position: absolute;
+  top: -40px;
+  left: 130px;
+  width: 35%;
+}
+
+.card-div .first-flex .pos-img2 {
+  position: absolute;
+  top: -35px;
+  left: 690px;
+  width: 35%;
 }
 
 .card-div .first-flex .img-set {
@@ -394,6 +430,7 @@ main, footer {
   font-size: 24px;
   line-height: 130%;
   color: #212353;
+  text-align: justify;
 }
 
 .card-div .first-flex .inner-flex p {
@@ -415,28 +452,33 @@ main, footer {
   color: #212353;
 }
 
-.card-div .first-flex .inner-flex:nth-child(1) {
-  background-image: url("../assets/bluebgsvg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-}
-
-.card-div .first-flex .inner-flex:nth-child(2) {
-  background-image: url("../assets/purple.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-}
-
 .card-div .second-flex {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.card-div .second-flex .pos-img3 {
+  position: absolute;
+  top: -40px;
+  left: 130px;
+  width: 35%;
+}
+
+.card-div .second-flex .pos-img4 {
+  position: absolute;
+  top: -35px;
+  left: 690px;
+  width: 35%;
 }
 
 .card-div .second-flex .inner-flex {
   width: 100%;
   margin-right: 4rem;
   margin-bottom: 2rem;
+}
+
+.card-div .second-flex .inner-flex .setter {
+  margin-left: 7rem;
 }
 
 .card-div .second-flex .inner-flex h3 {
@@ -447,6 +489,7 @@ main, footer {
   font-size: 24px;
   line-height: 130%;
   color: #212353;
+  text-align: justify;
 }
 
 .card-div .second-flex .inner-flex p {
@@ -470,22 +513,6 @@ main, footer {
 
 .card-div .second-flex .inner-flex .img-set {
   width: 50%;
-}
-
-.card-div .second-flex .inner-flex:nth-child(1) {
-  background-image: url("../assets/pink.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  width: 100%;
-}
-
-.card-div .second-flex .inner-flex:nth-child(2) {
-  background-image: url("../assets/lightblue.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  width: 100%;
 }
 
 .card-div h3 {
