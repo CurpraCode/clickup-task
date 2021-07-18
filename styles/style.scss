@@ -1,4 +1,4 @@
-@import "./_footer"
+@import "./_footer";
 *{
     margin:0px;
     padding:0px;
@@ -7,7 +7,6 @@
 }
 body{
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-    
 }
 @mixin flexBox{
     display:flex;
