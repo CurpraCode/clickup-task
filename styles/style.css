@@ -1,3 +1,128 @@
+@media screen and (max-width: 990px) {
+  .heading {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .heading ul {
+    position: absolute;
+    right: 70px;
+    height: 82vh;
+    top: 4vh;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: auto;
+    z-index: -1;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.8s ease-out;
+    transition: -webkit-transform 0.8s ease-out;
+    transition: transform 0.8s ease-out;
+    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out;
+    font-size: 10px;
+    overflow-y: hidden;
+  }
+  .section-home div {
+    margin-top: 2rem !important;
+  }
+  .section-home div button {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .section-home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-one {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .section-one h1 {
+    font-size: 60px !important;
+  }
+  .section-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1.5rem 2rem;
+  }
+  .section-card h1 {
+    font-size: 35px !important;
+  }
+  .first-flex, .second-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .footer-flex, .footer-flex2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .pos-img {
+    position: absolute;
+    top: -2px;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 75% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 240px !important;
+    left: 100px !important;
+    width: 75% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex {
+    margin-bottom: 9rem !important;
+  }
+  .card-div .first-flex {
+    margin-bottom: 2rem !important;
+  }
+  .card-div p {
+    margin-right: 2rem;
+  }
+  .card-div .second-flex .inner-flex .setter {
+    margin-left: 0rem !important;
+  }
+  .card-div .second-flex .inner-flex {
+    margin-bottom: 9rem !important;
+  }
+}
+
 .footer-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,6 +292,131 @@
 .footer-flex2 .ware {
   margin-bottom: 1.5rem;
   color: #212353;
+}
+
+@media screen and (max-width: 990px) {
+  .heading {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .heading ul {
+    position: absolute;
+    right: 70px;
+    height: 82vh;
+    top: 4vh;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: auto;
+    z-index: -1;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.8s ease-out;
+    transition: -webkit-transform 0.8s ease-out;
+    transition: transform 0.8s ease-out;
+    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out;
+    font-size: 10px;
+    overflow-y: hidden;
+  }
+  .section-home div {
+    margin-top: 2rem !important;
+  }
+  .section-home div button {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .section-home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-one {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .section-one h1 {
+    font-size: 60px !important;
+  }
+  .section-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1.5rem 2rem;
+  }
+  .section-card h1 {
+    font-size: 35px !important;
+  }
+  .first-flex, .second-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .footer-flex, .footer-flex2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .pos-img {
+    position: absolute;
+    top: -2px;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 75% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 240px !important;
+    left: 100px !important;
+    width: 75% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex {
+    margin-bottom: 9rem !important;
+  }
+  .card-div .first-flex {
+    margin-bottom: 2rem !important;
+  }
+  .card-div p {
+    margin-right: 2rem;
+  }
+  .card-div .second-flex .inner-flex .setter {
+    margin-left: 0rem !important;
+  }
+  .card-div .second-flex .inner-flex {
+    margin-bottom: 9rem !important;
+  }
 }
 
 * {
