@@ -128,13 +128,19 @@
     width: 100% !important;
   }
   .section-one h1 {
-    font-size: 40px !important;
+    font-size: 37px !important;
+  }
+  .section-one p {
+    font-size: 15px !important;
   }
   .section-card img {
     width: 88% !important;
   }
   .section-card h1 {
     font-size: 25px !important;
+  }
+  .section-card p {
+    font-size: 15px !important;
   }
   .btn-flex {
     -webkit-box-orient: vertical;
@@ -454,13 +460,19 @@
     width: 100% !important;
   }
   .section-one h1 {
-    font-size: 40px !important;
+    font-size: 37px !important;
+  }
+  .section-one p {
+    font-size: 15px !important;
   }
   .section-card img {
     width: 88% !important;
   }
   .section-card h1 {
     font-size: 25px !important;
+  }
+  .section-card p {
+    font-size: 15px !important;
   }
   .btn-flex {
     -webkit-box-orient: vertical;
