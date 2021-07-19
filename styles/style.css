@@ -1,4 +1,7 @@
 @media screen and (max-width: 990px) {
+  #pad {
+    padding-right: 0rem;
+  }
   .heading {
     margin-left: 50px !important;
     margin-right: 50px !important;
@@ -499,6 +502,9 @@
 }
 
 @media screen and (max-width: 990px) {
+  #pad {
+    padding-right: 0rem;
+  }
   .heading {
     margin-left: 50px !important;
     margin-right: 50px !important;
@@ -1407,5 +1413,9 @@ main, footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#pad {
+  padding-right: 5.5rem;
 }
 /*# sourceMappingURL=style.css.map */
