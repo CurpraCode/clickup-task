@@ -161,6 +161,9 @@
     .p{
         font-size: 13 !important;
     }
+    .section-two p {
+         padding-right: 0rem !important; 
+    }
 
 }
 @media screen and (max-width:490px){
@@ -237,9 +240,9 @@
     }
     .pos-img4{
         position: absolute;
-        top:260px !important;
+        top:210px !important;
         left:60px !important;
-        width:95% !important;
+        width:85% !important;
         margin-top:3rem !important;
     }
     .card-div .first-flex .inner-flex {
@@ -257,7 +260,7 @@
             font-size: 18px !important;
         }
         p, a{
-            font-size: 13px !important;
+            font-size: 10px !important;
         }
     }
     .card-div .first-flex {
