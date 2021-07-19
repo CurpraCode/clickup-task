@@ -112,3 +112,29 @@
 @media screen and (max-width:990px){
 
 }
+@media screen and (max-width:490px){
+    .section-one{
+      img{
+          width:100% !important;
+      }
+        h1{
+            font-size:40px !important;
+        }
+    }
+    .section-card{
+        img{
+            width:88% !important;
+        }
+        h1{
+            font-size:25px !important;
+        }
+    }
+.btn-flex{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    button{
+        margin-top: 2rem;
+    }
+}
+}
