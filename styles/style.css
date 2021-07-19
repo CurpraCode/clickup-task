@@ -1,6 +1,6 @@
 @media screen and (max-width: 990px) {
   #pad {
-    padding-right: 0rem;
+    padding-right: 0rem !important;
   }
   .heading {
     margin-left: 50px !important;
@@ -503,7 +503,7 @@
 
 @media screen and (max-width: 990px) {
   #pad {
-    padding-right: 0rem;
+    padding-right: 0rem !important;
   }
   .heading {
     margin-left: 50px !important;
