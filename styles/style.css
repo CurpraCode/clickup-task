@@ -24,19 +24,19 @@
     width: 0%;
     -webkit-transform: translateX(100%) !important;
             transform: translateX(100%) !important;
-    -webkit-transition: -webkit-transform 0.8s ease-out !important;
-    transition: -webkit-transform 0.8s ease-out !important;
-    transition: transform 0.8s ease-out !important;
-    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out !important;
+    -webkit-transition: -webkit-transform 18s ease-out !important;
+    transition: -webkit-transform 18s ease-out !important;
+    transition: transform 18s ease-out !important;
+    transition: transform 18s ease-out, -webkit-transform 18s ease-out !important;
     overflow-y: hidden !important;
   }
   .heading .nav-active {
     -webkit-transform: translateX(0%) !important;
             transform: translateX(0%) !important;
-    -webkit-transition: -webkit-transform 2s ease-in-out !important;
-    transition: -webkit-transform 2s ease-in-out !important;
-    transition: transform 2s ease-in-out !important;
-    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out !important;
+    -webkit-transition: -webkit-transform 1s ease-in-out !important;
+    transition: -webkit-transform 1s ease-in-out !important;
+    transition: transform 1s ease-in-out !important;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out !important;
     overflow-y: visible !important;
     width: 100%;
   }
@@ -49,6 +49,9 @@
     background-color: #222222;
     margin: 6px !important;
     border-radius: 10px !important;
+  }
+  .heading .line2 {
+    width: 15px !important;
   }
   .section-home div {
     margin-top: 2rem !important;
@@ -502,19 +505,19 @@
     width: 0%;
     -webkit-transform: translateX(100%) !important;
             transform: translateX(100%) !important;
-    -webkit-transition: -webkit-transform 0.8s ease-out !important;
-    transition: -webkit-transform 0.8s ease-out !important;
-    transition: transform 0.8s ease-out !important;
-    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out !important;
+    -webkit-transition: -webkit-transform 18s ease-out !important;
+    transition: -webkit-transform 18s ease-out !important;
+    transition: transform 18s ease-out !important;
+    transition: transform 18s ease-out, -webkit-transform 18s ease-out !important;
     overflow-y: hidden !important;
   }
   .heading .nav-active {
     -webkit-transform: translateX(0%) !important;
             transform: translateX(0%) !important;
-    -webkit-transition: -webkit-transform 2s ease-in-out !important;
-    transition: -webkit-transform 2s ease-in-out !important;
-    transition: transform 2s ease-in-out !important;
-    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out !important;
+    -webkit-transition: -webkit-transform 1s ease-in-out !important;
+    transition: -webkit-transform 1s ease-in-out !important;
+    transition: transform 1s ease-in-out !important;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out !important;
     overflow-y: visible !important;
     width: 100%;
   }
@@ -527,6 +530,9 @@
     background-color: #222222;
     margin: 6px !important;
     border-radius: 10px !important;
+  }
+  .heading .line2 {
+    width: 15px !important;
   }
   .section-home div {
     margin-top: 2rem !important;

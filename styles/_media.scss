@@ -14,12 +14,12 @@
             z-index: 1;
             width:0%;
             transform: translateX(100%) !important;
-            transition: transform 0.8s ease-out !important;
+            transition: transform 18s ease-out !important;
             overflow-y: hidden !important;
         }
         .nav-active {
             transform: translateX(0%) !important;
-            transition: transform 2s ease-in-out !important;
+            transition: transform 1s ease-in-out !important;
             overflow-y: visible !important;
             width: 100%;
           }
@@ -33,6 +33,9 @@
             background-color: rgb(34, 34, 34);
             margin: 6px !important;
             border-radius: 10px !important;
+          }
+          .line2{
+            width: 15px !important;
           }
          
     }
