@@ -5,8 +5,8 @@
   }
   .heading ul {
     position: absolute;
-    right: 9px;
-    height: 82vh;
+    right: 8px;
+    height: 75vh;
     top: 18vh;
     background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, #FFFFFF));
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
@@ -24,10 +24,10 @@
     width: 0%;
     -webkit-transform: translateX(100%) !important;
             transform: translateX(100%) !important;
-    -webkit-transition: -webkit-transform 18s ease-out !important;
-    transition: -webkit-transform 18s ease-out !important;
-    transition: transform 18s ease-out !important;
-    transition: transform 18s ease-out, -webkit-transform 18s ease-out !important;
+    -webkit-transition: -webkit-transform 1s ease-out !important;
+    transition: -webkit-transform 1s ease-out !important;
+    transition: transform 1s ease-out !important;
+    transition: transform 1s ease-out, -webkit-transform 1s ease-out !important;
     overflow-y: hidden !important;
   }
   .heading .nav-active {
@@ -49,9 +49,6 @@
     background-color: #222222;
     margin: 6px !important;
     border-radius: 10px !important;
-  }
-  .heading .line2 {
-    width: 15px !important;
   }
   .section-home div {
     margin-top: 2rem !important;
@@ -486,8 +483,8 @@
   }
   .heading ul {
     position: absolute;
-    right: 9px;
-    height: 82vh;
+    right: 8px;
+    height: 75vh;
     top: 18vh;
     background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, #FFFFFF));
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
@@ -505,10 +502,10 @@
     width: 0%;
     -webkit-transform: translateX(100%) !important;
             transform: translateX(100%) !important;
-    -webkit-transition: -webkit-transform 18s ease-out !important;
-    transition: -webkit-transform 18s ease-out !important;
-    transition: transform 18s ease-out !important;
-    transition: transform 18s ease-out, -webkit-transform 18s ease-out !important;
+    -webkit-transition: -webkit-transform 1s ease-out !important;
+    transition: -webkit-transform 1s ease-out !important;
+    transition: transform 1s ease-out !important;
+    transition: transform 1s ease-out, -webkit-transform 1s ease-out !important;
     overflow-y: hidden !important;
   }
   .heading .nav-active {
@@ -530,9 +527,6 @@
     background-color: #222222;
     margin: 6px !important;
     border-radius: 10px !important;
-  }
-  .heading .line2 {
-    width: 15px !important;
   }
   .section-home div {
     margin-top: 2rem !important;

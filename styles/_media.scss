@@ -4,8 +4,8 @@
         margin-right:50px !important;
         ul{
             position: absolute;
-            right: 9px;
-            height: 82vh;
+            right: 8px;
+            height: 75vh;
             top: 18vh;
             background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
             display: flex;
@@ -14,7 +14,7 @@
             z-index: 1;
             width:0%;
             transform: translateX(100%) !important;
-            transition: transform 18s ease-out !important;
+            transition: transform 1s ease-out !important;
             overflow-y: hidden !important;
         }
         .nav-active {
@@ -34,9 +34,7 @@
             margin: 6px !important;
             border-radius: 10px !important;
           }
-          .line2{
-            width: 15px !important;
-          }
+       
          
     }
     .section-home div{
