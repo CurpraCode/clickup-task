@@ -124,7 +124,31 @@
 }
 
 }
-
+@media screen and (max-width:890px) {
+.carousel-body{
+    margin-left: 10px;
+    margin-right:10px;
+}
+    
+.carousel{
+   
+    padding:1.5rem 2.5rem !important;
+    h1{
+        font-size: 25px !important;
+        text-align: center;
+    }
+}
+    .card-carousel{
+        
+        padding:0.5rem 1rem !important;
+        text-align: center;
+        p{
+            margin-top: 1rem !important;
+            // font-size: 13px !important;
+line-height: 120% !important;
+        }
+    }
+}
 
 @media screen and (max-width:560px){
     .pos-img{

@@ -142,6 +142,28 @@
   }
 }
 
+@media screen and (max-width: 890px) {
+  .carousel-body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .carousel {
+    padding: 1.5rem 2.5rem !important;
+  }
+  .carousel h1 {
+    font-size: 25px !important;
+    text-align: center;
+  }
+  .card-carousel {
+    padding: 0.5rem 1rem !important;
+    text-align: center;
+  }
+  .card-carousel p {
+    margin-top: 1rem !important;
+    line-height: 120% !important;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .pos-img {
     position: absolute;
@@ -620,6 +642,28 @@
   }
 }
 
+@media screen and (max-width: 890px) {
+  .carousel-body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .carousel {
+    padding: 1.5rem 2.5rem !important;
+  }
+  .carousel h1 {
+    font-size: 25px !important;
+    text-align: center;
+  }
+  .card-carousel {
+    padding: 0.5rem 1rem !important;
+    text-align: center;
+  }
+  .card-carousel p {
+    margin-top: 1rem !important;
+    line-height: 120% !important;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .pos-img {
     position: absolute;
@@ -781,6 +825,151 @@
   .p {
     font-size: 13 !important;
   }
+}
+
+.carousel {
+  background: #9c69e2;
+  margin-bottom: 2rem;
+  padding: 3rem 5rem;
+  border-radius: 50px;
+}
+
+.carousel h1 {
+  color: white;
+  margin-bottom: 2rem;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.card-carousel {
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card-carousel::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.card-carousel::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.card-carousel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.card-carousel img {
+  margin-right: 1rem;
+}
+
+.card-carousel h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.card-carousel a {
+  letter-spacing: 0.01em;
+  color: #9C69E2;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+.card-carousel p {
+  margin-top: 3rem;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4B5D68;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.cards {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 20px 0px rgba(155, 105, 226, 0.633) !important;
+          box-shadow: 0px 20px 0px rgba(155, 105, 226, 0.633) !important;
+  border-radius: 20px;
+  padding: 2.5rem 4.5rem;
+  scroll-snap-align: start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-right: 50px;
+  border-radius: 10px;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  position: relative;
+}
+
+#a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: white;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 80%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+
+#a:active {
+  top: 1px;
+}
+
+#a:hover {
+  background: #f063b8;
+}
+
+#a:focus {
+  background: #f063b8;
 }
 
 * {

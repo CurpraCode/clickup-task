@@ -1,0 +1,111 @@
+@mixin flexBox{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.carousel{
+    background: rgba(156, 105, 226, 1);
+    margin-bottom:2rem;
+    padding:3rem 5rem;
+    border-radius: 50px;
+    h1{
+        color:white;
+        margin-bottom:2rem;
+        font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+    }
+}
+.card-carousel{
+     overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+     &::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 10px;
+      }
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+
+@include flexBox();
+align-items: flex-start;
+justify-content: flex-start;
+img{
+    margin-right: 1rem;
+}
+h4{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 160%;
+    color: #212353;
+}
+a{
+    letter-spacing: 0.01em;
+color: #9C69E2;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+text-decoration: none;
+}
+p{
+    margin-top:3rem;
+    font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 180%;
+color: #4B5D68;
+}
+}
+.slider{
+    overflow: hidden;
+   
+}
+.cards{
+    background: #FFFFFF;
+box-shadow: 0px 20px 0px rgba(155, 105, 226, 0.633) !important;
+border-radius: 20px;
+padding:2.5rem 4.5rem;
+    scroll-snap-align: start;
+  flex-shrink: 0;
+  margin-right: 50px;
+  border-radius: 10px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+}
+#a{
+    display: inline-flex;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+  &:active {
+    top: 1px;
+  }
+  &:hover{
+    background: rgba(240, 99, 184, 1); 
+  }
+  &:focus {
+    background: rgba(240, 99, 184, 1);
+  }
+}
