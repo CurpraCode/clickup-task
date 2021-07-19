@@ -123,6 +123,56 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .pos-img {
+    position: absolute;
+    top: -20px !important;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 75% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 260px !important;
+    left: 100px !important;
+    width: 75% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex {
+    margin-bottom: 7rem !important;
+  }
+  .card-div .first-flex .inner-flex h3 {
+    font-size: 18px !important;
+  }
+  .card-div .first-flex .inner-flex p, .card-div .first-flex .inner-flex a {
+    font-size: 13px !important;
+  }
+  .card-div .second-flex .inner-flex h3 {
+    font-size: 18px !important;
+  }
+  .card-div .second-flex .inner-flex p, .card-div .second-flex .inner-flex a {
+    font-size: 13px !important;
+  }
+  .card-div .first-flex {
+    margin-bottom: 0.7rem !important;
+  }
+  .p {
+    font-size: 13 !important;
+  }
+}
+
 @media screen and (max-width: 490px) {
   .section-one img {
     width: 100% !important;
@@ -476,6 +526,56 @@
   }
   .card-div .second-flex .inner-flex {
     margin-bottom: 9rem !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .pos-img {
+    position: absolute;
+    top: -20px !important;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 75% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 75% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 260px !important;
+    left: 100px !important;
+    width: 75% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex {
+    margin-bottom: 7rem !important;
+  }
+  .card-div .first-flex .inner-flex h3 {
+    font-size: 18px !important;
+  }
+  .card-div .first-flex .inner-flex p, .card-div .first-flex .inner-flex a {
+    font-size: 13px !important;
+  }
+  .card-div .second-flex .inner-flex h3 {
+    font-size: 18px !important;
+  }
+  .card-div .second-flex .inner-flex p, .card-div .second-flex .inner-flex a {
+    font-size: 13px !important;
+  }
+  .card-div .first-flex {
+    margin-bottom: 0.7rem !important;
+  }
+  .p {
+    font-size: 13 !important;
   }
 }
 
