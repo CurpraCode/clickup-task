@@ -5,10 +5,11 @@
   }
   .heading ul {
     position: absolute;
-    right: 70px;
+    right: 9px;
     height: 82vh;
-    top: 4vh;
-    background-color: white;
+    top: 18vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, #FFFFFF));
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -19,17 +20,35 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
-    width: auto;
-    z-index: -1;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    -webkit-transition: -webkit-transform 0.8s ease-out;
-    transition: -webkit-transform 0.8s ease-out;
-    transition: transform 0.8s ease-out;
-    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out;
-    font-size: 10px;
-    overflow-y: hidden;
+    z-index: 1;
+    width: 0%;
+    -webkit-transform: translateX(100%) !important;
+            transform: translateX(100%) !important;
+    -webkit-transition: -webkit-transform 0.8s ease-out !important;
+    transition: -webkit-transform 0.8s ease-out !important;
+    transition: transform 0.8s ease-out !important;
+    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out !important;
+    overflow-y: hidden !important;
+  }
+  .heading .nav-active {
+    -webkit-transform: translateX(0%) !important;
+            transform: translateX(0%) !important;
+    -webkit-transition: -webkit-transform 2s ease-in-out !important;
+    transition: -webkit-transform 2s ease-in-out !important;
+    transition: transform 2s ease-in-out !important;
+    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out !important;
+    overflow-y: visible !important;
+    width: 100%;
+  }
+  .heading .menu {
+    display: block !important;
+  }
+  .heading .menu div {
+    width: 25px !important;
+    height: 3px !important;
+    background-color: #222222;
+    margin: 6px !important;
+    border-radius: 10px !important;
   }
   .section-home div {
     margin-top: 2rem !important;
@@ -464,10 +483,11 @@
   }
   .heading ul {
     position: absolute;
-    right: 70px;
+    right: 9px;
     height: 82vh;
-    top: 4vh;
-    background-color: white;
+    top: 18vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, #FFFFFF));
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -478,17 +498,35 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
-    width: auto;
-    z-index: -1;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    -webkit-transition: -webkit-transform 0.8s ease-out;
-    transition: -webkit-transform 0.8s ease-out;
-    transition: transform 0.8s ease-out;
-    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out;
-    font-size: 10px;
-    overflow-y: hidden;
+    z-index: 1;
+    width: 0%;
+    -webkit-transform: translateX(100%) !important;
+            transform: translateX(100%) !important;
+    -webkit-transition: -webkit-transform 0.8s ease-out !important;
+    transition: -webkit-transform 0.8s ease-out !important;
+    transition: transform 0.8s ease-out !important;
+    transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out !important;
+    overflow-y: hidden !important;
+  }
+  .heading .nav-active {
+    -webkit-transform: translateX(0%) !important;
+            transform: translateX(0%) !important;
+    -webkit-transition: -webkit-transform 2s ease-in-out !important;
+    transition: -webkit-transform 2s ease-in-out !important;
+    transition: transform 2s ease-in-out !important;
+    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out !important;
+    overflow-y: visible !important;
+    width: 100%;
+  }
+  .heading .menu {
+    display: block !important;
+  }
+  .heading .menu div {
+    width: 25px !important;
+    height: 3px !important;
+    background-color: #222222;
+    margin: 6px !important;
+    border-radius: 10px !important;
   }
   .section-home div {
     margin-top: 2rem !important;
@@ -782,6 +820,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.heading .menu {
+  display: none;
 }
 
 .heading ul {

@@ -37,6 +37,9 @@ font-size: 16px;
         @include flexBox();  
 
     }
+    .menu {
+        display: none;
+      }
     ul{
         @include flexBox(); 
         margin-left: 7rem;
