@@ -91,6 +91,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -104,32 +107,32 @@
   }
   .pos-img {
     position: absolute;
-    top: -2px;
+    top: -1px;
     left: 130px;
-    width: 75% !important;
+    width: 55% !important;
   }
   .pos-img2 {
     position: absolute;
     top: 290px !important;
     left: 120px !important;
-    width: 75% !important;
-    margin-top: 2rem !important;
+    width: 55% !important;
+    margin-top: 1rem !important;
   }
   .pos-img3 {
     position: absolute;
     top: -40px;
     left: 130px;
-    width: 75% !important;
+    width: 55% !important;
   }
   .pos-img4 {
     position: absolute;
     top: 240px !important;
     left: 100px !important;
-    width: 75% !important;
-    margin-top: 3rem !important;
+    width: 55% !important;
+    margin-top: 4rem !important;
   }
   .card-div .first-flex .inner-flex {
-    margin-bottom: 9rem !important;
+    margin-bottom: 10rem !important;
   }
   .card-div .first-flex {
     margin-bottom: 2rem !important;
@@ -142,6 +145,12 @@
   }
   .card-div .second-flex .inner-flex {
     margin-bottom: 9rem !important;
+  }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 18rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 18rem !important;
   }
 }
 
@@ -165,9 +174,85 @@
     margin-top: 1rem !important;
     line-height: 120% !important;
   }
+  .pos-img {
+    position: absolute;
+    top: -2px;
+    left: 130px;
+    width: 55% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 55% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 55% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 240px !important;
+    left: 100px !important;
+    width: 55% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 14rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 14rem !important;
+  }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 770px) {
+  .pos-img {
+    position: absolute;
+    top: -2px;
+    left: 130px;
+    width: 65% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 65% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 65% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 240px !important;
+    left: 100px !important;
+    width: 65% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 10rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 10rem !important;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .card-div .first-flex .inner-flex p {
+    margin-right: 4rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
   .pos-img {
     position: absolute;
     top: -20px !important;
@@ -195,7 +280,7 @@
     margin-top: 3rem !important;
   }
   .card-div .first-flex .inner-flex {
-    margin-bottom: 7rem !important;
+    margin-bottom: 6rem !important;
   }
   .card-div .first-flex .inner-flex h3 {
     font-size: 18px !important;
@@ -278,18 +363,24 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 0rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 0rem !important;
+  }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .pos-img {
     position: absolute;
-    top: -20px !important;
+    top: -30px !important;
     left: 60px !important;
     width: 85% !important;
   }
   .pos-img2 {
     position: absolute;
-    top: 250px !important;
+    top: 230px !important;
     left: 70px !important;
     width: 79% !important;
     margin-top: 2rem !important;
@@ -302,7 +393,7 @@
   }
   .pos-img4 {
     position: absolute;
-    top: 210px !important;
+    top: 190px !important;
     left: 60px !important;
     width: 85% !important;
     margin-top: 3rem !important;
@@ -594,6 +685,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -607,32 +701,32 @@
   }
   .pos-img {
     position: absolute;
-    top: -2px;
+    top: -1px;
     left: 130px;
-    width: 75% !important;
+    width: 55% !important;
   }
   .pos-img2 {
     position: absolute;
     top: 290px !important;
     left: 120px !important;
-    width: 75% !important;
-    margin-top: 2rem !important;
+    width: 55% !important;
+    margin-top: 1rem !important;
   }
   .pos-img3 {
     position: absolute;
     top: -40px;
     left: 130px;
-    width: 75% !important;
+    width: 55% !important;
   }
   .pos-img4 {
     position: absolute;
     top: 240px !important;
     left: 100px !important;
-    width: 75% !important;
-    margin-top: 3rem !important;
+    width: 55% !important;
+    margin-top: 4rem !important;
   }
   .card-div .first-flex .inner-flex {
-    margin-bottom: 9rem !important;
+    margin-bottom: 10rem !important;
   }
   .card-div .first-flex {
     margin-bottom: 2rem !important;
@@ -645,6 +739,12 @@
   }
   .card-div .second-flex .inner-flex {
     margin-bottom: 9rem !important;
+  }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 18rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 18rem !important;
   }
 }
 
@@ -668,9 +768,85 @@
     margin-top: 1rem !important;
     line-height: 120% !important;
   }
+  .pos-img {
+    position: absolute;
+    top: -2px;
+    left: 130px;
+    width: 55% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 55% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 55% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 240px !important;
+    left: 100px !important;
+    width: 55% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 14rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 14rem !important;
+  }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 770px) {
+  .pos-img {
+    position: absolute;
+    top: -2px;
+    left: 130px;
+    width: 65% !important;
+  }
+  .pos-img2 {
+    position: absolute;
+    top: 290px !important;
+    left: 120px !important;
+    width: 65% !important;
+    margin-top: 2rem !important;
+  }
+  .pos-img3 {
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    width: 65% !important;
+  }
+  .pos-img4 {
+    position: absolute;
+    top: 240px !important;
+    left: 100px !important;
+    width: 65% !important;
+    margin-top: 3rem !important;
+  }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 10rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 10rem !important;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .card-div .first-flex .inner-flex p {
+    margin-right: 4rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
   .pos-img {
     position: absolute;
     top: -20px !important;
@@ -698,7 +874,7 @@
     margin-top: 3rem !important;
   }
   .card-div .first-flex .inner-flex {
-    margin-bottom: 7rem !important;
+    margin-bottom: 6rem !important;
   }
   .card-div .first-flex .inner-flex h3 {
     font-size: 18px !important;
@@ -781,18 +957,24 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .card-div .first-flex .inner-flex p {
+    margin-right: 0rem !important;
+  }
+  .card-div .second-flex .inner-flex p {
+    margin-right: 0rem !important;
+  }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .pos-img {
     position: absolute;
-    top: -20px !important;
+    top: -30px !important;
     left: 60px !important;
     width: 85% !important;
   }
   .pos-img2 {
     position: absolute;
-    top: 250px !important;
+    top: 230px !important;
     left: 70px !important;
     width: 79% !important;
     margin-top: 2rem !important;
@@ -805,7 +987,7 @@
   }
   .pos-img4 {
     position: absolute;
-    top: 210px !important;
+    top: 190px !important;
     left: 60px !important;
     width: 85% !important;
     margin-top: 3rem !important;
